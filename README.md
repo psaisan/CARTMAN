@@ -1,9 +1,51 @@
 
-
- 
-
-# <img src="Images/cartman.PNG" alt="Cartman Icon" width="50" height="50"> CARTMAN
-[**C**o-occurrence **A**nalysis of **R**epeating **T**ranscription-factor **M**otifs **A**nd **N**etworks]
+<img src="Images/CartmanLogo.PNG"  style="border: 0;"/>
 
 
-Understanding gene regulation requires exploring complex genomic sequence structures beyond individual transcription factor motifs. CARTMAN (**C**o-occurrence **A**nalysis of **R**epeating **T**ranscription-factor **M**otifs **A**nd **N**etworks) enables discovery and quantification of motif co-occurrences within regulatory sequences and differential analysis of motif complexes across biological contexts. In contrast to high complexity machine learning approaches, MCAT offers straightforward and interpretable measures while minimizing computational overhead and user background requirements. MCAT motif co-occurrence constructs parallel the simplicity and interpretability of individual motif descriptors, representing a logical progression of well established genomic discovery tools like HOMER. Application to ChIP-seq data revealed distinct motif combinations between Sall1 knockout and wild-type cells, demonstrating its ability to detect subtle regulatory differences beyond individual motif sets.
+## Abstract
+
+Understanding gene regulation requires exploring complex genomic sequence structures beyond individual transcription factor motifs. **CARTMAN** (Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks) is a software tool that enables the discovery and quantification of motif co-occurrences within regulatory sequences and performs differential analysis of motif complexes across biological contexts. Unlike high-complexity machine learning approaches, CARTMAN offers straightforward and interpretable measures while minimizing computational overhead and user background requirements. CARTMAN’s motif co-occurrence constructs parallel the simplicity and interpretability of individual motif descriptors, representing a logical progression of well-established genomic discovery tools like HOMER.
+
+## Citation
+
+Saisan, P., & Glass, C. (2024). **CARTMAN: Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks** (Version 1.0) [Computer software]. GitHub. Retrieved from [https://github.com/psaisan/CARTMAN](https://github.com/psaisan/CARTMAN)
+
+### BibTeX Entry
+
+```bibtex
+@misc{saisan2024cartman,
+  author       = {Saisan, P. and Glass, C.},
+  title        = {CARTMAN: Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks},
+  year         = {2024},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/psaisan/CARTMAN}},
+  version      = {1.0},
+}
+```
+
+
+## Features
+
+- **Motif Co-occurrence Table Generation:** Given a set of target motifs file and a genomic peaks file, CARTMAN constructs and quantifies all possible motif combinations found within the genomic peaks. 
+- **Differential Analysis:** Compares motif co-occurrence between two peak sets to identify significant differences.
+- **Result Integration:** Outputs normalized counts and significance levels and a number of different visualizations of the motif co-occurances in peak files.
+
+---
+
+## Installation
+
+### Prerequisites
+
+- **Python 3.7+**
+- **HOMER Suite:** Ensure HOMER is installed and accessible in your system's PATH.
+
+### Steps
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/psaisan/CARTMAN.git
+   cd CARTMAN
+   
+---
+
