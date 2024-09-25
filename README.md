@@ -51,6 +51,8 @@ Saisan, P., & Glass, C. (2024). **CARTMAN: Co-occurrence Analysis of Repeating T
    cd CARTMAN
    
 ---
+
+
 # Function Reference
 
 - [read_motif_headers](#read_motif_headers)
@@ -75,12 +77,16 @@ Saisan, P., & Glass, C. (2024). **CARTMAN: Co-occurrence Analysis of Repeating T
 
 Reads headers from a motif file to extract motif names.
 
+_
+
 <a name="read_motif_headers_jaspar"></a>
 ### read_motif_headers_jaspar
 
 `motif_names = read_motif_headers_jaspar(motif_file)`
 
 Reads headers from a JASPAR motif file to extract motif names.
+
+_
 
 <a name="read_motif_headers_homer"></a>
 ### read_motif_headers_homer
@@ -89,12 +95,16 @@ Reads headers from a JASPAR motif file to extract motif names.
 
 Reads headers from a HOMER motif file to extract motif names.
 
+_
+
 <a name="get_motif_count"></a>
 ### get_motif_count
 
 `motif_count_table, motif_count_file = get_motif_count(peak_file, genome, motif_file, output_directory, force)`
 
 Gets motif count using HOMER annotatePeaks.
+
+_
 
 <a name="get_motif_count_loc"></a>
 ### get_motif_count_loc
@@ -103,12 +113,16 @@ Gets motif count using HOMER annotatePeaks.
 
 Gets motif count with positions using HOMER annotatePeaks.
 
+_
+
 <a name="ensure_directory_exists"></a>
 ### ensure_directory_exists
 
 `ensure_directory_exists(output_directory)`
 
 Ensures that the specified directory exists, creating it if necessary.
+
+_
 
 <a name="transform_combinations_to_matrix"></a>
 ### transform_combinations_to_matrix
@@ -117,12 +131,16 @@ Ensures that the specified directory exists, creating it if necessary.
 
 Transforms motif combinations to a binary matrix representation.
 
+_
+
 <a name="calculate_motif_distance"></a>
 ### calculate_motif_distance
 
 `distance = calculate_motif_distance(s1, s2)`
 
 Calculates the distance between two motif positions.
+
+_
 
 <a name="find_co_occurring_motifs"></a>
 ### find_co_occurring_motifs
@@ -131,12 +149,16 @@ Calculates the distance between two motif positions.
 
 Finds co-occurring motifs within a specified maximum distance.
 
+_
+
 <a name="calculate_all_motif_co_occurrences"></a>
 ### calculate_all_motif_co_occurrences
 
 `binary_df, category_counts = calculate_all_motif_co_occurrences(df, max_distance)`
 
 Calculates all motif co-occurrences within a specified maximum distance.
+
+_
 
 <a name="all_possible_combinations33"></a>
 ### all_possible_combinations33
@@ -145,9 +167,14 @@ Calculates all motif co-occurrences within a specified maximum distance.
 
 Generates all possible combinations of motifs with a minimum set count.
 
+_
+
 <a name="peak_motif_sets"></a>
 ### peak_motif_sets
 
+`sorted_data, binary_table = peak_motif_sets(peak_file, genome, motif_list_file, output_directory)`
+
+Processes motif analysis and generates an UpSet plot.
 `sorted_data, binary_table = peak_motif_sets(peak_file, genome, motif_list_file, output_directory)`
 
 Processes motif analysis and generates an UpSet plot.
