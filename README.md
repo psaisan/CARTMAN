@@ -48,7 +48,7 @@ Saisan, P., & Glass, C. (2024). **CARTMAN: Co-occurrence Analysis of Repeating T
 
 ## Data Source
 
-The data files used in this example are derived from the work associated with the following paper:
+The data files used in this example are derived from the following paper:
 
 Seidman JS, Troutman TD, Sakai M, Gola A, Spann NJ, Bennett H, Bruni CM, Ouyang Z, Li RZ, Sun X, Vu BT, Pasillas MP, Ego KM, Gosselin D, Link VM, Chong L, Evans RM, Thompson BM, McDonald JG, Hosseini M, Witztum JL, Germain RN, Glass CK. Niche-Specific Reprogramming of Epigenetic Landscapes Drives Myeloid Cell Diversity in Nonalcoholic Steatohepatitis. Immunity. 2020 Apr 28;S1074-7613(20)30159-X. doi: 10.1016/j.immuni.2020.04.001. [PMID: 32362324](https://pubmed.ncbi.nlm.nih.gov/32362324/)
 
