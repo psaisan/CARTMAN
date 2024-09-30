@@ -11,7 +11,7 @@ Understanding gene regulation requires exploring complex genomic sequence struct
 
 If you use CARTMAN in your work, please reference it as follows:
 
-Saisan, P., & Glass, C. (2024). **CARTMAN: Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks** (Version 0.0) [Computer software]. GitHub. Retrieved from [https://github.com/psaisan/CARTMAN](https://github.com/psaisan/CARTMAN)
+Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating transcription-factor motifs and networks (Version 0.0) [Computer software]. GitHub. https://github.com/psaisan/CARTMAN
 
 ### BibTeX Entry
 
@@ -22,7 +22,7 @@ Saisan, P., & Glass, C. (2024). **CARTMAN: Co-occurrence Analysis of Repeating T
   year         = {2024},
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/psaisan/CARTMAN}},
-  version      = {1.0},
+  version      = {0.1},
 }
 ```
 
