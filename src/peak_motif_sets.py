@@ -1,4 +1,4 @@
-# CARTMAN Project v1.0 - 2024
+# CARTMAN Project v0.1 - 2024
 # The most up-to-date version of this code can be found at:
 # https://github.com/psaisan/CARTMAN
 #
