@@ -1,5 +1,5 @@
 
-<img src="Images/pipeline.PNG"  style="border: 0;"/>
+<img src="Images/CartmanLogo.PNG"  style="border: 0;"/>
 
 
 ## Abstract
