@@ -41,7 +41,26 @@ Saisan, P., & Glass, C. (2024). **CARTMAN: Co-occurrence Analysis of Repeating T
    git clone https://github.com/psaisan/CARTMAN.git
    cd CARTMAN
    
-## Example Notebook
+# Example Notebook
 
 [View the CARTMAN Example Notebook](./Notebooks/CARTMAN_Example.ipynb)
 
+
+## Data Source
+
+The data files used in this example are derived from the work associated with the following paper:
+
+Seidman JS, Troutman TD, Sakai M, Gola A, Spann NJ, Bennett H, Bruni CM, Ouyang Z, Li RZ, Sun X, Vu BT, Pasillas MP, Ego KM, Gosselin D, Link VM, Chong L, Evans RM, Thompson BM, McDonald JG, Hosseini M, Witztum JL, Germain RN, Glass CK. Niche-Specific Reprogramming of Epigenetic Landscapes Drives Myeloid Cell Diversity in Nonalcoholic Steatohepatitis. Immunity. 2020 Apr 28;S1074-7613(20)30159-X. doi: 10.1016/j.immuni.2020.04.001. [PMID: 32362324](https://pubmed.ncbi.nlm.nih.gov/32362324/)
+
+The full dataset is available on GEO: [GSE128338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128338)
+
+Specifically, this example uses the following files derived from the dataset:
+
+1. Peak files:
+   - `KCH_H3K_FC2_1000_w200.txt`
+   - `KCN_H3K_FC2_1000_w200.txt`
+
+2. Target motif list file:
+   - `KCH_VS_KCN_w400_L70.motifs`
+
+These files are located in the `data` directory. For more details on how these files are used, please refer to the example notebook.
