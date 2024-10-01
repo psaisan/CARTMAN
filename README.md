@@ -48,13 +48,9 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 
 ## Data Source
 
-The data files used in this example are derived from the following paper:
+The data used in the example is from the following study:
 
 [Seidman et al.](https://pubmed.ncbi.nlm.nih.gov/32362324/)
-
-Full datase on GEO: [GSE128338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128338)
-
-The notebook example uses the following data nuggets:
 
 1. Peak file1: Healthy Kupffer cell peaks 
 
@@ -67,5 +63,7 @@ The notebook example uses the following data nuggets:
 3. Target motif list file: Motifs subset highly active in HEALTHY and MASH 
    
 **`KCH_VS_KCN_w400_L70.motifs`**
+
+Full datase on GEO: [GSE128338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128338)
 
 
