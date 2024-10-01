@@ -4,7 +4,7 @@
 
 ## Abstract
 
-Understanding gene regulation requires exploring complex genomic sequence structures beyond individual transcription factor motifs. **CARTMAN** (Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks) is a tool that performs discovery and quantification of motif co-occurrences within regulatory sequences and enables downstream differential analysis of motif complexes across distinct experimental conditions. In contrast to high-complexity machine learning approaches, CARTMAN offers straightforward and interpretable measures with minimal computational overhead and user background requirements. CARTMAN’s motif co-occurrence constructs parallel the simplicity of motifs as co-occurrence of individual nucleotides, representing a natural progression of motif discovery tools like [HOMER](http://homer.ucsd.edu/homer/) and [FIMO](https://meme-suite.org/meme/tools/fimo).
+Understanding regulation of gene expression in cells requires exploring complex genomic sequence structures beyond individual transcription factor motifs. **CARTMAN** (Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks) is a tool that performs discovery and quantification of motif co-occurrences within regulatory sequences and enables downstream differential analysis of motif complexes across distinct experimental conditions. In contrast to high-complexity machine learning approaches, CARTMAN offers straightforward and interpretable measures with minimal computational overhead and user background requirements. CARTMAN’s motif co-occurrence constructs parallel the simplicity of motifs as co-occurrence of individual nucleotides, representing a natural progression of motif discovery tools like [HOMER](http://homer.ucsd.edu/homer/) and [FIMO](https://meme-suite.org/meme/tools/fimo).
 
 
 ## Citation   
@@ -50,11 +50,11 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 
 The data used in this example is from a 2020 study, [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/), looking at epigenomic changes in the immune system cells (Kupffer) as they undergo a diet induced transformation.
 
-1. Peak file1: Regulatory DNA regions active in HEALTHY cells 
+1. Peak file1: Regulatory DNA regions active in HEALTHY Kupffer cells 
 
 **`KCH_H3K_FC2_1000_w200.txt`** 
 
-2. Peak file2: Regulatory DNA regions active  in [MASH](https://en.wikipedia.org/wiki/Metabolic_dysfunction%E2%80%93associated_steatotic_liver_disease) transformed cells 
+2. Peak file2: Regulatory DNA regions active  in [MASH](https://en.wikipedia.org/wiki/Metabolic_dysfunction%E2%80%93associated_steatotic_liver_disease) transformed Kupffer cells 
 
 **`KCN_H3K_FC2_1000_w200.txt`** 
 
