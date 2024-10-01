@@ -58,7 +58,7 @@ The data used in this example is from a 2020 study, [Seidman et al, 2020](https:
 
 **`KCN_H3K_FC2_1000_w200.txt`** 
 
-3. Target motif list file: Motifs subset active in HEALTHY and MASH Kupffer cells 
+3. Target motif list file: Subset of [HOMER](http://homer.ucsd.edu/homer/) identified [motifs] (https://biocorecrg.github.io/CRG_Bioinformatics_for_Biologists_2021/dna_motifs.html) active in HEALTHY and MASH Kupffer cells 
    
 **`KCH_VS_KCN_w400_L70.motifs`**
 
