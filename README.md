@@ -4,7 +4,7 @@
 
 ## Abstract
 
-Understanding gene regulation requires exploring complex genomic sequence structures beyond individual transcription factor motifs. **CARTMAN** (Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks) is a tool that performs discovery and quantification of motif co-occurrences within regulatory sequences and enables downstream differential analysis of motif complexes across distinct experimental conditions. In contrast to high-complexity machine learning approaches, CARTMAN offers straightforward and interpretable measures with minimal computational overhead and user background requirements. CARTMAN’s motif co-occurrence constructs parallel the simplicity of motifs as co-occurrence of individual nucleotides, representing a natural progression of well-established motif discovery tools like [HOMER](http://homer.ucsd.edu/homer/) and [FIMO](https://meme-suite.org/meme/tools/fimo).
+Understanding gene regulation requires exploring complex genomic sequence structures beyond individual transcription factor motifs. **CARTMAN** (Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks) is a tool that performs discovery and quantification of motif co-occurrences within regulatory sequences and enables downstream differential analysis of motif complexes across distinct experimental conditions. In contrast to high-complexity machine learning approaches, CARTMAN offers straightforward and interpretable measures with minimal computational overhead and user background requirements. CARTMAN’s motif co-occurrence constructs parallel the simplicity of motifs as co-occurrence of individual nucleotides, representing a natural progression of motif discovery tools like [HOMER](http://homer.ucsd.edu/homer/) and [FIMO](https://meme-suite.org/meme/tools/fimo).
 
 
 ## Citation   
@@ -48,17 +48,17 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 
 ## Data Source
 
-The data used in this example is from a 2020 study, [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/), looking at epigenomic changes in the immune system cells [(liver machrophages)](https://en.wikipedia.org/wiki/Kupffer_cell) as they undergo a diet induced transformation: 
+The data used in this example is from a 2020 study, [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/), looking at epigenomic changes in the immune system cells (Kupffer) as they undergo a diet induced transformation.
 
 1. Peak file1: Healthy Kupffer cell peaks 
 
 **`KCH_H3K_FC2_1000_w200.txt`** 
 
-2. Peak file2: MASH Kupffer cell peaks
+2. Peak file2: [MASH](https://en.wikipedia.org/wiki/Metabolic_dysfunction%E2%80%93associated_steatotic_liver_disease) transformed Kupffer cell peaks
 
 **`KCN_H3K_FC2_1000_w200.txt`** 
 
-3. Target motif list file: Subset of [HOMER](http://homer.ucsd.edu/homer/) identified [motifs] (https://biocorecrg.github.io/CRG_Bioinformatics_for_Biologists_2021/dna_motifs.html) active in HEALTHY and MASH Kupffer cells 
+3. Target motif list file: Subset of HOMER identified motifs active in HEALTHY and MASH Kupffer cells 
    
 **`KCH_VS_KCN_w400_L70.motifs`**
 
