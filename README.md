@@ -50,15 +50,15 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 
 The data used in this example is from a 2020 study, [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/), looking at epigenomic changes in the immune system cells (Kupffer) as they undergo a diet induced transformation.
 
-1. Peak file1: Healthy Kupffer cell peaks 
+1. Peak file1: Regulatory DNA regions active in HEALTHY cells 
 
 **`KCH_H3K_FC2_1000_w200.txt`** 
 
-2. Peak file2: [MASH](https://en.wikipedia.org/wiki/Metabolic_dysfunction%E2%80%93associated_steatotic_liver_disease) transformed Kupffer cell peaks
+2. Peak file2: Regulatory DNA regions active  in [MASH](https://en.wikipedia.org/wiki/Metabolic_dysfunction%E2%80%93associated_steatotic_liver_disease) transformed cells 
 
 **`KCN_H3K_FC2_1000_w200.txt`** 
 
-3. Target motif list file: Subset of HOMER identified motifs active in HEALTHY and MASH Kupffer cells 
+3. Target motif list file: Subset of HOMER identified motifs found in HEALTHY and MASH Kupffer cells 
    
 **`KCH_VS_KCN_w400_L70.motifs`**
 
