@@ -48,9 +48,7 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 
 ## Data Source
 
-The data used in the example is from the following study:
-
-Niche-Specific Reprogramming of Epigenetic Landscapes Drives Myeloid Cell Diversity in Nonalcoholic Steatohepatitis. [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/)
+The data used in this example is from a 2020 study looking at epigenomic changes in our immune system cells (liver macrophages) as they undergo a MASH diet induced transformation: [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/)
 
 1. Peak file1: Healthy Kupffer cell peaks 
 
@@ -60,7 +58,7 @@ Niche-Specific Reprogramming of Epigenetic Landscapes Drives Myeloid Cell Divers
 
 **`KCN_H3K_FC2_1000_w200.txt`** 
 
-3. Target motif list file: Motifs subset highly active in HEALTHY and MASH 
+3. Target motif list file: Motifs subset active in HEALTHY and MASH Kupffer cells 
    
 **`KCH_VS_KCN_w400_L70.motifs`**
 
