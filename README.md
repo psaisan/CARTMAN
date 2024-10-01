@@ -48,7 +48,7 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 
 ## Data Source
 
-The data used in this example is from a 2020 study looking at epigenomic changes in our immune system cells (liver macrophages) as they undergo a MASH diet induced transformation: [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/)
+The data used in this example is from a 2020 study, [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/), looking at epigenomic changes in the immune system cells (mouse liver machrophages) as they undergo a diet induced transformation: 
 
 1. Peak file1: Healthy Kupffer cell peaks 
 
