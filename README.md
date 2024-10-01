@@ -54,13 +54,18 @@ Seidman JS, Troutman TD, Sakai M, Gola A, Spann NJ, Bennett H, Bruni CM, Ouyang 
 
 Full datase on GEO: [GSE128338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128338)
 
-The notebook example uses the following peak and motif files derived from this dataset:
+The notebook example uses the following data nuggets:
 
-1. Peak files:
-   - `KCH_H3K_FC2_1000_w200.txt`
-   - `KCN_H3K_FC2_1000_w200.txt`
+1. Peak file1: Healthy Kupffer cell peaks 
 
-2. Target motif list file:
-   - `KCH_VS_KCN_w400_L70.motifs`
+**`KCH_H3K_FC2_1000_w200.txt`** 
 
-Data files are located in the `data` directory.
+2. Peak file2: MASH Kupffer cell peaks
+
+**`KCN_H3K_FC2_1000_w200.txt`** 
+
+3. Target motif list file: Motifs subset highly active in HEALTHY and MASH 
+   
+**`KCH_VS_KCN_w400_L70.motifs`**
+
+
