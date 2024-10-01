@@ -50,7 +50,7 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 
 The data used in the example is from the following study:
 
-[Seidman et al.](https://pubmed.ncbi.nlm.nih.gov/32362324/)
+Niche-Specific Reprogramming of Epigenetic Landscapes Drives Myeloid Cell Diversity in Nonalcoholic Steatohepatitis. [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/)
 
 1. Peak file1: Healthy Kupffer cell peaks 
 
