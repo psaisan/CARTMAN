@@ -48,7 +48,7 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 
 ## Data Source
 
-The data used in this example is from a 2020 study, [Seidman et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32362324/), looking at epigenomic changes in the immune system cells (Kupffer) as they undergo a diet induced transformation.
+The data used in this example is from a 2020 study, [Seidman et al](https://pubmed.ncbi.nlm.nih.gov/32362324/), looking at epigenomic changes in the immune system cells (Kupffer) as they undergo a diet induced transformation.
 
 1. Peak file1: Regulatory DNA regions active in HEALTHY Kupffer cells 
 
