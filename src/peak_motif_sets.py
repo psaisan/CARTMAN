@@ -121,7 +121,7 @@ def peak_motif_sets(
         f'PEAKS: [{peak_file}]\n'
         f'MOTIFS: [{motif_list_file}]\n'
     )
-    fig_upset.suptitle(title_txt, fontsize=16)
+    plt.title(title_txt, fontsize=16)
 
     if save_as_images:
         upset_image_path = f"{image_base}_upset.png"
