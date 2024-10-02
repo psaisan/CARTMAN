@@ -4,7 +4,7 @@
 
 ## Abstract
 
-Deciphering the relationship between regulatory sequences and gene expression in cells requires exploring complex sequence structures beyond individual transcription factor motifs. **CARTMAN** (Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks) is a tool that performs discovery and quantification of motif co-occurrences within regulatory sequences and enables downstream differential analysis of multi-motif complexes across distinct experimental conditions. In contrast to high-complexity machine learning approaches that often produce inferred measures, CARTMAN produces simple and interpretable measures with minimal computational overhead and user background requirement. CARTMAN builds on the output of tools like HOMER and FIMO representing a natural progression to motif discovery tools. 
+Deciphering the relationship between regulatory sequences and gene expression in cells necessitates exploring complex sequence structures beyond individual transcription factor motifs. CARTMAN (Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks) is a tool designed to discover and quantify motif co-occurrences within regulatory sequences. It facilitates downstream differential analysis of multi-motif complexes across distinct experimental conditions. Unlike high-complexity machine learning approaches that often produce inferred measures, CARTMAN delivers simple and interpretable metrics with minimal computational overhead and requires only basic user expertise. Building upon outputs from tools like HOMER and FIMO, CARTMAN represents a natural progression in motif discovery tools.
 
 
 ## Citation   
