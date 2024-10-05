@@ -24,6 +24,7 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
   version      = {0.1},
 }
 ```
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13863034.svg)]()
 
 ## Installation
 
