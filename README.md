@@ -32,7 +32,7 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
 ### Prerequisites
 
 - **Python 3.7+**
-- **HOMER Suite:** Ensure HOMER is installed and accessible in your system's PATH.
+- **HOMER Suite:** Ensure that [HOMER](http://homer.ucsd.edu) is installed and accessible in your system's PATH.
 
 ### Steps
 
