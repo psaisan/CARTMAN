@@ -1,5 +1,5 @@
-google-site-verification: google1c1ceaa1cdf4980f.html
 <img src="Images/pipeline0.2.PNG"  style="border: 0;"/>
+
 
 
 ## Abstract
@@ -13,6 +13,8 @@ If you use CARTMAN in your work, please reference it as follows:
 
 Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating transcription-factor motifs and networks (Version 0.1) [Computer software]. GitHub. https://github.com/psaisan/CARTMAN
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13863034.svg)]()
+
 ### BibTeX Entry
 
 ```bibtex
@@ -25,7 +27,7 @@ Saisan, P., & Glass, C. (2024). CARTMAN: Co-occurrence analysis of repeating tra
   version      = {0.1},
 }
 ```
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13863034.svg)]()
+
 
 ## Installation
 
