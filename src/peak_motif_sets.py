@@ -26,9 +26,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from upsetplot import plot
 import itertools
-from motif_utils import read_motif_headers
-from homer_utils import get_motif_count
-from combination_utils import all_possible_combinations33, transform_combinations_to_matrix
+from src.motif_utils import read_motif_headers
+from src.HOMER_utils import get_motif_count
+from src.combination_utils import all_possible_combinations33, transform_combinations_to_matrix
 
 def peak_motif_sets(
     peak_file,
