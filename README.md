@@ -5,6 +5,12 @@
 The observation that similar sets of transcription factor motifs are sometimes found in **not** so simlar cellular phenotypes suggests that gene expression maybe a function of specific combinatorial arrangement(s) of the motifs within the regulatory segments of DNA. Deciphering the relationship between regulatory sequences and gene expression necessitates exploring complex sequence structures beyond individual motifs. **CARTMAN** (Co-occurrence Analysis of Repeating Transcription-factor Motifs And Networks) is a computational tool designed to discover and quantify motif co-occurrences within regulatory sequences. It facilitates downstream differential analysis of multi-motif complexes across distinct experimental conditions. Unlike high-complexity machine learning approaches that often produce inferred measures, CARTMAN delivers direct and interpretable metrics with minimal computational overhead and requires only basic user expertise. Building upon outputs from tools like HOMER and FIMO, CARTMAN represents a natural progression to basic motif discovery tools.
 
 
+## Statistical Interpretability in Data-Sparse Contexts
+
+Machine learning (ML) models such as SVMs and deep neural networks typically learn complex geometric decision boundaries and perform best in settings with large, balanced, and well-labeled datasets. In regulatory genomics, however, differential peak analyses often involve relatively few loci with high feature correlation conditions that limit the ability of such models to generalize accurately. While discriminative classifiers can be calibrated to produce class probabilities 𝑃( class ∣ features ), these represent model-derived likelihoods rather than hypothesis-test probabilities quantifying the statistical enrichment of specific motif configurations under an explicit null.
+
+CARTMAN facilitates statistical inference directly on empirical probability distributions rather than through parameterized function approximation. It helps quantify differential motif enrichment under explicit null models, providing interpretable hypothesis-test probabilities instead of model-conditional class likelihoods. This classical statistical formulation complements modern machine-learning methods by prioritizing transparency and small-sample reliability over predictive generalization from large training corpora.
+
 ## Citation   
 
 If you use CARTMAN in your work, please reference it as follows:
