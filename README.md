@@ -8,9 +8,9 @@ The observation that similar sets of transcription factor motifs are sometimes f
 
 CARTMAN faciliates a formal probabilistic prediction model. It systematically enumerates motif combinations, estimates their co-occurrence frequencies to allow computation of statistical significance for each configuration, to produce p-value based probability separations of motif combinations that correlate with regulatory changes such as histone acetylation. This predictive analysis is grounded in explicit probabilities rather than black-box trained decision functions.
 
-## A Departure from Traditional Machine Learning
+## Mechanistic Inference in the Age of Machine Learning
 
-An SVM or a deep learning based classifier could, in principle, be trained on motif presence vectors, but given the relatively modest number of loci and the strong interdependence of motif features, such models tend to overfit and yield unstable decision boundaries. Also, while discriminative classifiers can produce class probabilities, these represent model-derived likelihoods rather than hypothesis-test probabilities that are more appropriate for quantifying statistical enrichment under an explicit null model. The advantage of CARTMAN is that it doesn't rely on large-sample generalizations; it provides interpretable probability estimates through direct statistical inference. The result is rigorous, mechanistically interpretable separations of motif configurations rather than performance-optimized black boxes.
+An SVM or a deep learning based classifier could, in principle, be trained on motif presence vectors, but given the relatively modest number of loci and the strong interdependence of motif features, such models tend to overfit and yield unstable decision boundaries. CARTMAN doesn't rely on large-sample generalizations; it faciliates interpretable probability estimates through direct statistical inference. The result is rigorous, mechanistically interpretable separations of motif configurations rather than performance-optimized black boxes.
 
 ## Citation   
 
